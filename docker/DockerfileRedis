@@ -1,0 +1,8 @@
+FROM redis:latest
+MAINTAINER cooooing 2450144961@qq.com
+
+COPY redis.conf.orig /usr/local/etc/redis/redis.conf
+
+EXPOSE 6379
+
+CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
