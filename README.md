@@ -1,6 +1,6 @@
-<h1 align="center">Minecraft Remake</h1>
+<h1 align="center">online chat</h1>
 <div align="center">
-    <strong>online chat</strong>
+    <strong>online chat use go and redis</strong>
 </div>
 
 
